@@ -1,0 +1,5 @@
+Backend progress status:
+- Implemented students models/serializers/views/urls/login.
+- Implemented default superuser management command.
+- Remaining blocker: tool cannot create __init__.py files for students package/management; manual creation needed.
+
