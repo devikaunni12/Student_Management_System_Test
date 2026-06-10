@@ -6,7 +6,7 @@ import axios from 'axios'
 // Configure your backend base URL.
 // - If Django is running on localhost:8000, use that.
 // - For production, replace with your domain.
-const baseURL = 'http://127.0.0.1:8000'
+const baseURL = 'https://student-management-system-test.onrender.com'
 
 // Create an Axios instance.
 const api = axios.create({
@@ -26,4 +26,3 @@ api.interceptors.request.use((config) => {
 })
 
 export default api
-
